@@ -16,3 +16,82 @@ a{
     text-decoration: none;
     color: inherit;
 }
+h1, .none{
+    display: none;
+    font-size: 0px;
+    color: #fff;
+}
+h2{
+    font-weight: 600;
+}
+.txt-bleu{color: #0065FC;}
+.txt-gris{color: #F2F2F2;}
+nav{
+    display: flex;
+}
+nav a:nth-child(3):hover, nav a:nth-child(4):hover{
+    color: #0065FC;
+}
+header a:nth-of-type(4) {
+    text-align: right;
+    font-weight: 600;
+    color: #0065FC;
+}
+#recherche{display: flex;}
+#localisation{
+    background-color: #F2F2F2;
+    font-size: 18px;
+    text-align: center;
+}
+input{
+    border: 1px solid #F2F2F2;
+}
+#filtres{
+    display: flex;
+}
+.btn_filtres{
+    display: flex;
+}
+#filtres .txt_filtres{
+    font-weight: 600;
+}
+#filtres .btn_filtres {
+    flex-grow: 1;
+}
+#filtres .economique, #filtres .familial, #filtres .romantique, #filtres .animaux {
+    display: flex;
+    border: 2px solid #F2F2F2;
+}
+#filtres .economique:hover, #filtres .familial:hover, #filtres .romantique:hover, #filtres .animaux:hover {
+    background-color: #0065FC;
+    color: #fff;
+}
+.economique i, .familial i, .romantique i, .animaux i {
+    text-align: center;
+    font-size: 1.3em;
+    color: #0065FC;
+    border: 2px solid #DEEBFF;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+}
+.economique .fitre-text, .familial .fitre-text, .romantique .fitre-text, .animaux .fitre-text {
+    font-weight: 600;
+}
+#information{
+    margin-top: 35.1px;
+    display: flex;
+    font-size: .9em;
+}
+#information i{
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    color: #0065FC;
+    border: 1px solid #DEEBFF;  
+    border-radius: 50%;
+    font-size: 1em;
+    line-height: 24px;
+}
+#information #text-info {
+    font-size: 1.2em;
+}
