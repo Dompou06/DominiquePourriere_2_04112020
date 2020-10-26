@@ -16,3 +16,24 @@ a{
     text-decoration: none;
     color: inherit;
 }
+h1, .none{
+    display: none;
+    font-size: 0px;
+    color: #fff;
+}
+h2{
+    font-weight: 600;
+}
+.txt-bleu{color: #0065FC;}
+.txt-gris{color: #F2F2F2;}
+nav{
+    display: flex;
+}
+nav a:nth-child(3):hover, nav a:nth-child(4):hover{
+    color: #0065FC;
+}
+header a:nth-of-type(4) {
+    text-align: right;
+    font-weight: 600;
+    color: #0065FC;
+}

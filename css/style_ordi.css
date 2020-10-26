@@ -1,3 +1,33 @@
 @media only screen and (min-width: 992px){
-    
+    nav{
+        flex-wrap: nowrap;
+        margin: 0 7.6vw 0 3.9vw;
+        align-items: flex-start;
+    }
+    nav a:nth-child(2){
+        display: flex;
+        flex-grow: 1;
+        height: 80.9px;
+    }
+    nav a img{
+        align-self: flex-end;
+        width: 6.7vw;
+    }
+    nav a:nth-child(3), nav a:nth-child(4){
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 65.5px;
+        width: 11.2vw;
+        font-size: 1.18em;
+        border-top: solid 1.8px #fff;
+    }
+    nav a:nth-child(3):hover, nav a:nth-child(4):hover{
+        border-top: solid 1.8px #0065FC;
+    }
+    nav a:nth-child(5){
+        width: 5.8vw;
+        margin-top: 51.1px;
+        font-size: 1.18em;
+    }    
 }

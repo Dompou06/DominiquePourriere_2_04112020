@@ -1,3 +1,41 @@
 @media only screen and (max-width: 767px){
+    nav{
+        flex-wrap: wrap;
+    }
+    nav a:nth-child(2){
+        display: flex;
+        height: 62px;
+        order: 2;
+        width: 44.4vw;
+        padding-left: 5.6vw;
+    }
+    nav a img{
+        align-self: flex-end;
+        width: 25.36vw;
+    }
+    nav a:nth-child(3){
+        order: 4;
+    }
+    nav a:nth-child(4){
+        order: 5;
+    }
+    nav a:nth-child(3), nav a:nth-child(4){ 
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 52.1px;
+        width: 50%;
+        padding-bottom: 13.4px;
+        border-bottom: solid 2.3px #fff;
+    }
+    nav a:nth-child(3):hover, nav a:nth-child(4):hover{
+        border-bottom: solid 1.8px #0065FC;
+    }
+    nav a:nth-child(5){
+        order: 3;
+        width: 44.4vw;
+        padding-right: 5.6vw;
+        margin-top: 43.4px;
+    }
 
 }
