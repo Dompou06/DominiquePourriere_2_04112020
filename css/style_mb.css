@@ -37,5 +37,97 @@
         padding-right: 5.6vw;
         margin-top: 43.4px;
     }
+    #container{
+    margin: 17px 5.6vw 0 5.6vw;
+    }
+    h2{
+        font-size: 1.6em;
+        letter-spacing: 1px;
+    }
+    #container p{
+        margin-top: 3px;
+        font-size: 1.2em;
+        letter-spacing: .2px;
+    }
+    #btn-recherche{display: none;}
+    #recherche{margin-top: 5.9px;}
+    #localisation{
+        height: 50.7px;
+        width: 13.5vw;
+        font-size: 1.4em;
+        border-radius: 3.7vw 0 0 3.7vw;
+        line-height: 50.7px;
+    }
+    input{
+        height: 46.7px;
+        width: 65vw;
+        font-size: 1.2em;
+        padding-left: 4vw;
+    }
+    #btn-search{
+        width: 50.7px;
+        height: 50.7px;
+        margin-left: -8vw;
+        font-size: 1.4em;
+        font-weight: 600;
+        color: #fff;
+        background-color: #0065FC;
+        border: 0;
+        border-radius: 3.6vw 3.6vw 3.6vw 
+        3.6vw;
+        z-index: 5;
+    }
+    #filtres {
+        display: flex;
+        flex-wrap: wrap;
+        width: 86vw;
+        margin-top: 37.3px;
+    }
+    #filtres .txt_filtres {
+        font-size: 1em;
+        padding: 0 0 18.5px .2vw;
+    }
+    .btn_filtres {
+        width: 86vw;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #filtres .economique, #filtres .familial, #filtres .romantique, #filtres .animaux {
+        height: 49.5px;
+        margin-top: 13.1px;
+        border-radius: 24.7px;
+    }
+    .economique i, .familial i, .romantique i, .animaux i {
+        height: 49.5px;
+        width: 49.5px;
+        margin: -2px 0 0 -2px;
+        line-height: 49.5px;
+    }
+    .economique .fitre-text, .familial .fitre-text, .romantique .fitre-text, .animaux .fitre-text {
+        line-height: 49.5px;
+    }
+    .economique .fitre-text {
+        padding-left: 3.1vw;
+        padding-right: 5.1vw;
+    }
+    .familial .fitre-text{
+        padding-left: 3.4vw;
+        padding-right: 4.3vw;
+    }
+    .romantique .fitre-text{
+        padding-left: 3.1vw;
+        padding-right: 3.2vw;
+    }
+    .animaux .fitre-text{
+        padding-left: 3.1vw;
+        padding-right: 4vw;
+    }
+    #information{
+        width: 86vw;
+    }
+    #information #text-info {
+        line-height: 24px;
+        padding-left: 3.1vw;
+    }
 
 }

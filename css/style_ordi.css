@@ -29,5 +29,81 @@
         width: 5.8vw;
         margin-top: 51.1px;
         font-size: 1.18em;
-    }    
+    }
+    #container{
+        margin: 0 0 0 3.9vw;
+    }
+    h2{
+        font-size: 1.55em;
+        letter-spacing: .5px;
+    }
+    #container p{
+    margin-top: 8.7px;
+    font-size: 1.18em;
+    letter-spacing: .2px;
+    }
+    #btn-search{display: none;}
+    #recherche{margin-top: 5.2px;}
+    #localisation{
+        height: 50.9px;
+        width: 3.6vw;
+        border-radius: .9vw 0 0 .9vw;
+        line-height: 50.9px;
+    }
+    input{
+        height: 46.9px;
+        width: 16.8vw;
+        padding-left: 1.2vw;
+        font-size: 1.1em;
+    }
+    #btn-recherche{
+        width: 9.3vw;
+        margin-left: -2.5vw;
+        font-weight: 600;
+        padding-left: 1.2vw;
+        color: #fff;
+        background-color: #0065FC;
+        border: 0;
+        border-radius: 0 .9vw .9vw 0;
+        z-index: 5;
+    }
+    #filtres {
+        display: flex;
+        width: 63.4vw;
+        margin-top: 30.2px;
+    }
+    #filtres .txt_filtres {
+        width: 4.9vw;
+        font-size: 1.2em;
+        text-align: center;
+        line-height: 50px;
+    }
+    .btn_filtres {
+        justify-content: space-evenly;
+    }
+    #filtres .economique, #filtres .familial, #filtres .romantique, #filtres .animaux {
+        height: 50px;
+        border-radius: 22px;
+    }
+    .economique i, .familial i, .romantique i, .animaux i {
+        height: 50px;
+        width: 50px;
+        margin: -2px 0 0 -2.7px;
+        line-height: 50px;
+    }
+    .economique .fitre-text, .familial .fitre-text, .romantique .fitre-text, .animaux .fitre-text {
+        line-height: 50px;
+        padding-left: 1vw;
+    }
+    .economique .fitre-text, .familial .fitre-text {padding-right: 1.5vw;}
+    .romantique .fitre-text{padding-right: 1vw;}
+    .animaux .fitre-text{padding-right: 1.4vw;}
+    #information #text-info {
+        line-height: 24px;
+        padding-left: .8vw;
+    }
+    
+    
+
+
 }
