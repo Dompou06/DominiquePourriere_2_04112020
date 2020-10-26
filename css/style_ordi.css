@@ -102,6 +102,127 @@
         line-height: 24px;
         padding-left: .8vw;
     }
+    #section_hebergements {
+        margin:36.7px 0 0 3.6vw;
+        width: 92.9vw;
+        justify-content: space-between;
+    }
+    #section_hebergements article{
+        width: 57.5vw;
+        background-color: #F2F2F2;
+        border-radius: 20.4px;
+    }
+    #section_hebergements aside{
+        width: 33.3vw;
+        border-radius: 20.4px;
+    }
+    article h2, aside h2{margin: 41.8px 0 0 2.8vw;}
+    aside h2{
+        width: 27.7vw;
+    }
+    #grid_cartes {
+        margin: 23px 0 0 2.7vw;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-between;
+        height: 429px;
+    }
+    #grid_cartes .carte-h{
+        width: 86.5%;
+        padding: .5vw .5vw 0 .5vw;
+        border-radius: 1.2vw 1.2vw 1.2vw 1.2vw;
+    }
+    .carte-h .recadreh {
+        height: 113.8px;
+        border-radius: 12px 12px 0 0;
+    }
+    #img_h1 {
+        height: 145%;
+        width: 105%;
+        margin: -26px 0 0 -.5vw;
+    }
+    #img_h2 {
+        height: 145%;
+        width: 102%;
+        margin: -25px 0 0 0;
+        filter: brightness(105%) opacity(80%);
+    }
+    #img_h3 {
+        height: 150%;
+        width: 102%;
+        margin: -30px 0 0 0;
+        filter: brightness(115%) opacity(80%);
+    }
+    #img_h4 {
+        height: 200%;
+        width: 100%;
+        margin: -60px 0 0 -.3vw;
+    }
+    #img_h5 {
+        height: 130%;
+        width: 102%;
+        margin: -25px 0 0 0;
+    }
+    #img_h6 {
+        height: 322%;
+        width: 100%;
+        margin: -127px 0 0 .3vw;
+    }
+    .carte-h figcaption{
+        margin: 7.5px 0 0 .8vw;
+    }
+    h3{font-size: .92em;
+        letter-spacing: 0.05em;
+    margin: 0;
+    padding: 0;}
+    .carte-h figcaption p{
+        font-size: .9em;
+        margin-top: 4.7px;
+        line-height: 17px;
+    }
+    .afficher{
+        margin: 18.1px 0 20.1px 3vw;
+        font-size: 16.3px;
+    }
+    #populaires{
+        grid-template-columns: 1fr;
+        margin-top: 23px;
+        height: 500px;
+    }
+    .carte-p{
+        margin: 0 2.2vw 0 2.2vw;
+        padding: .5vw 0 .5vw .5vw;
+        border-radius: 1.2vw 1.2vw 1.2vw 1.2vw;
+    }
+    .recardep{
+        width: 10vw;
+        border-radius: 13.2px 0 0 13.2px;
+    }
+    .carte-p figcaption{
+        margin: 10.2px 0 0 1.6vw;
+        line-height: 19.5px;
+        width: 11vw;
+    }
+    .carte-p figcaption p .fas{
+        padding-top: 26.5px;
+    }
+    #img_p1{
+        width: 165%;
+        height: 110%;
+        margin: -5px 0 0 -2.8vw;
+    }
+    #img_p2{
+        width: 145%;
+        height: 107%;
+        margin: -5px 0 0 -2vw;
+        filter: brightness(105%);
+    }
+    #img_p3{
+        width: 95%;
+        height: 155%;
+        margin: -35px 0 0 0;
+        filter: brightness(105%);
+    }
     
     
 

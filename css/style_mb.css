@@ -129,5 +129,120 @@
         line-height: 24px;
         padding-left: 3.1vw;
     }
+    #section_hebergements {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    #section_hebergements article{
+        width: 100vw;
+    }
+    #section_hebergements aside{
+        width: 100vw;
+        margin-top: 36px;
+    }
+    article h2, aside h2 {
+        margin: 37.1px 0 0 5.6vw;
+        font-size: 21px;
+        padding: 0 5.6vw 0 0;
+    }
+    aside h2 {padding-bottom: 24.1px;}
+    #grid_cartes {
+        margin: 23px 5.6vw 0 5.6vw;
+        grid-template-columns: 1fr;
+    }
+    .carte-h{
+        padding: 1.3vw 1.3vw 0 1.3vw;
+        margin-bottom: 9px;
+        border-radius: 4vw 4vw 4vw 4vw;
+    }
+    .carte-h .recadreh {
+        height: 114.6px;
+        border-radius: 12.2px 12.2px 0 0;
+    }
+    #img_h1 {
+        height: 192%;
+        width: 100%;
+        margin: -53.5px 0 0 -.5vw;
+    }
+    #img_h2 {
+        height: 195%;
+        width: 102%;
+        margin: -55px 0 0 0;
+        filter: brightness(105%) opacity(80%);
+    }
+    #img_h3 {
+        height: 190%;
+        width: 102%;
+        margin: -53px 0 0 0;
+        filter: brightness(115%) opacity(80%);
+    }
+    #img_h4 {
+        height: 265%;
+        width: 100%;
+        margin: -95px 0 0 -.3vw;
+    }
+    #img_h5 {
+        height: 150%;
+        width: 100%;
+        margin: -25px 0 0 0;
+    }
+    #img_h6 {
+        height: 322%;
+        width: 100%;
+        margin: -115px 0 0 .3vw;
+    }
+    .carte-h figcaption{
+        margin: 11.5px 0 0 3vw;}
+    h3{font-size: 1em;
+    padding: 0;
+    margin: 0;}
+    .carte-h figcaption p{
+        font-size: 1em;
+        margin-top: 7.9px;
+        line-height: 18px;
+    }
+    .afficher{
+        margin: 23.1px 0 0 5.6vw;
+        font-size: 17px;
+    }
+    #populaires{
+        grid-template-columns: 1fr;
+        height: 453.4px;
+        margin-bottom: 36.4px;
+    }
+    .carte-p{
+        margin: 0 5.6vw 0 5.6vw;
+        padding: 1.3vw 0 1.3vw 1.3vw;
+        border-radius: 4vw 4vw 4vw 4vw;
+    }
+    .recardep{
+        width: 34vw;
+        border-radius: 12.2px 0 0 12.2px;
+    }
+    .carte-p figcaption{
+        margin: 9.4px 0 0 5.6vw;
+        line-height: 19px;
+        width: 36.3vw;
+    }
+    .carte-p figcaption p .fas{
+        padding-top: 27.5px;
+    }
+    #img_p1{
+        width: 170%;
+        height: 110%;
+        margin: -5px 0 0 -12vw;
+    }
+    #img_p2{
+        width: 145%;
+        height: 107%;
+        margin: -5px 0 0 -7vw;
+        filter: brightness(105%);
+    }
+    #img_p3{
+        width: 95%;
+        height: 155%;
+        margin: -35px 0 0 0;
+        filter: brightness(105%);
+    }
 
 }
