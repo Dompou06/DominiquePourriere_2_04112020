@@ -95,3 +95,46 @@ input{
 #information #text-info {
     font-size: 1.2em;
 }
+#section_hebergements {
+    display: flex;
+}
+#section_hebergements aside{
+    background-color: #F2F2F2;
+}
+#grid_cartes {
+    display: grid;  
+}
+.carte-h{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: .5vw .5vw 0 .5vw;
+    background-color: #fff; 
+    box-shadow: #e7e7e7 0 0 12px;
+}
+.carte-h .recadreh {
+    width: 100%;
+    overflow: hidden;
+}
+.carte-h figcaption{
+    width: 100%;
+}
+#recadreh2{
+    background: linear-gradient(#9fdbe9, white);
+}
+.gras{font-weight: 600;}
+.afficher{font-weight: 600;}
+aside h2 i{float: right;}
+#populaires{
+    display: grid;
+}
+.carte-p{
+    display: flex;
+    background-color: #fff; 
+    box-shadow: #e7e7e7 0 0 12px;
+}
+.recardep{
+    overflow: hidden;
+    height: 133.1px;
+}
