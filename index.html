@@ -32,6 +32,8 @@
     <link rel="stylesheet" href="css/style_tab.css">
     </head>
     <body>
+        <div class="container">
+<!-- Entête --> 
         <header>
             <nav>
             <h1>Reservia</h1>
@@ -41,16 +43,17 @@
                 <a id="inscription" href="#">S'inscrire</a> 
             </nav>
         </header>
-        <div id="container">          
+<!-- Recherche --> 
+        <section id="recherche">          
             <h2>Trouver votre hébergement pour des vacances de rêve</h2>
             <p>En plein centre ville ou en pleine nature</p>
-            <div id="recherche">
+            <article id="req">
                 <div id="localisation"><div class="cvert"><i class="fas fa-map-marker-alt"></i></div></div>
                 <input type="text" name="ville" value="Marseille, France">
-                <button id="btn-recherche">Rechercher</button>
-                <button id="btn-search"><i class="fas fa-search"></i></button>
-            </div>
-            <div id="filtres">
+                <button type="button" id="btn-recherche">Rechercher</button>
+                <button type="button" id="btn-search"><i class="fas fa-search"></i></button>
+            </article>
+            <article id="filtres">
                 <div class="txt_filtres"><span class="centerh">Filtres</span></div>
                 <div class="btn_filtres">
                 <div class="economique">
@@ -70,12 +73,13 @@
                     <span class="fitre-text">Animaux autorisés</span>
                 </div>
                 </div>
-            </div>
-            <div id="information">
+            </article>
+            <aside id="information">
                 <i class="fas fa-info"></i>
                 <span id="text-info">Plus de 500 logements sont disponibles dans cette ville</span>
-            </div>      
-        </div>
+            </aside>      
+        </section>
+<!-- Hébergement --> 
         <a id="ancre-hebergements"></a>
         <section id="section_hebergements">
             <h2 class="none">Hébergements</h2>
@@ -163,6 +167,7 @@
                 </div> 
                 <div class="afficher"><a href="#">Afficher plus</a></div>               
             </article>
+ <!-- Les plus populaires --> 
             <aside>
                 <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
                 <div id="populaires">
@@ -208,6 +213,9 @@
                     </div>
             </aside>
         </section>
-        
+<!-- Activités --> 
+
+<!-- Footer --> 
+    </div>   
     </body>
     </html>

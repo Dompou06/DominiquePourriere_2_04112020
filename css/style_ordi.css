@@ -30,20 +30,20 @@
         margin-top: 51.1px;
         font-size: 1.18em;
     }
-    #container{
+    #recherche{
         margin: 0 0 0 3.9vw;
     }
     h2{
         font-size: 1.55em;
         letter-spacing: .5px;
     }
-    #container p{
+    #recherche p{
     margin-top: 8.7px;
     font-size: 1.18em;
     letter-spacing: .2px;
     }
     #btn-search{display: none;}
-    #recherche{margin-top: 5.2px;}
+    #req{margin-top: 5.2px;}
     #localisation{
         height: 50.9px;
         width: 3.6vw;
