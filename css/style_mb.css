@@ -37,20 +37,20 @@
         padding-right: 5.6vw;
         margin-top: 43.4px;
     }
-    #container{
+    #recherche{
     margin: 17px 5.6vw 0 5.6vw;
     }
     h2{
         font-size: 1.6em;
         letter-spacing: 1px;
     }
-    #container p{
+    #recherche p{
         margin-top: 3px;
         font-size: 1.2em;
         letter-spacing: .2px;
     }
     #btn-recherche{display: none;}
-    #recherche{margin-top: 5.9px;}
+    #req{margin-top: 5.9px;}
     #localisation{
         height: 50.7px;
         width: 13.5vw;

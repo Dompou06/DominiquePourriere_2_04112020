@@ -37,7 +37,7 @@ header a:nth-of-type(4) {
     font-weight: 600;
     color: #0065FC;
 }
-#recherche{display: flex;}
+#req{display: flex;}
 #localisation{
     background-color: #F2F2F2;
     font-size: 18px;
