@@ -138,3 +138,40 @@ aside h2 i{float: right;}
     overflow: hidden;
     height: 133.1px;
 }
+.activites{   
+    display: flex;
+    justify-content: space-between;
+}
+.activites div{
+    overflow: hidden;
+    background-color: #fff;
+}
+.activites div figure{margin: 0;}
+.recadre1{
+    background: linear-gradient(#74d8e8, 20%, white);
+    background: -moz-linear-gradient(top, #043c44 20%, white);
+}
+.img-act1{filter: contrast(130%) brightness(130%) opacity(70%);}
+.recadre2{
+    background: linear-gradient(#f2eff6, 80%, white);
+    background: -moz-linear-gradient(top, #f2eff6 80%, white);
+}
+.img-act2{filter: brightness(105%) opacity(90%);}
+.img-act3{
+    height: 165%;
+    filter: contrast(130%) brightness(110%) opacity(70%);
+} 
+.recadre4{position: relative;}
+.recadre4:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom,rgba(7, 187, 241, 0.51) 30%,rgb(246, 246, 247, 1) 100%);
+}
+.img-act4{filter: contrast(120%) brightness(130%) opacity(70%);}
+.recadre5{background: linear-gradient(#C3F3FF, 110%, white);}  
+.img-act5{filter:brightness(110%);}
+.recadre6{background: linear-gradient(#74d8e8, white);}
