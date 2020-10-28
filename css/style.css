@@ -24,6 +24,7 @@ h1, .none{
 h2{
     font-weight: 600;
 }
+h4{font-size: 16px;}
 .txt-bleu{color: #0065FC;}
 .txt-gris{color: #F2F2F2;}
 nav{
@@ -175,3 +176,4 @@ aside h2 i{float: right;}
 .recadre5{background: linear-gradient(#C3F3FF, 110%, white);}  
 .img-act5{filter:brightness(110%);}
 .recadre6{background: linear-gradient(#74d8e8, white);}
+footer{background-color: #F2F2F2;}

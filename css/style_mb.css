@@ -308,5 +308,16 @@
         width: 100%;
         margin: -25px 0 0 0;
     }
-
+    footer{
+        margin-top: 49.5px;
+        padding: 48px 0 0 7.8vw;
+        height: 515.8px;
+    }
+    h4{margin: 0;
+    padding: 0 0 8.3px 0;
+    line-height: 0;}
+    .apropos p, .nheberg p, .assistance p{
+        line-height: 31px;
+        padding-bottom: 16.7px;
+        }
 }
