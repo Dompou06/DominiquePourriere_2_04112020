@@ -98,7 +98,17 @@
     .economique .fitre-text, .familial .fitre-text {padding-right: 1.5vw;}
     .romantique .fitre-text{padding-right: 1vw;}
     .animaux .fitre-text{padding-right: 1.4vw;}
+    #information{
+        margin-top: 35.1px;
+    }
+    #information i{
+        height: 24px;
+        width: 24px;
+        font-size: 1em;
+        line-height: 24px;
+    }
     #information #text-info {
+        font-size: 1.2em;
         line-height: 24px;
         padding-left: .8vw;
     }

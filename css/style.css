@@ -79,22 +79,14 @@ input{
     font-weight: 600;
 }
 #information{
-    margin-top: 35.1px;
     display: flex;
     font-size: .9em;
 }
 #information i{
-    height: 24px;
-    width: 24px;
     text-align: center;
     color: #0065FC;
     border: 1px solid #DEEBFF;  
     border-radius: 50%;
-    font-size: 1em;
-    line-height: 24px;
-}
-#information #text-info {
-    font-size: 1.2em;
 }
 #section_hebergements {
     display: flex;
