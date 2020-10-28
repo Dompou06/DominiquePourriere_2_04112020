@@ -1,3 +1,329 @@
-@media only screen and (min-width: 768px) and (max-width: 991px){
-    
-}
+@media only screen and (min-width: 768px) and (max-width: 991px){   
+    nav{
+        flex-wrap: nowrap;
+        margin: 0 7.6vw 0 3.9vw;
+        align-items: flex-start;
+    }
+    nav a:nth-child(2){
+        display: flex;
+        flex-grow: 1;
+        height: 80.9px;
+    }
+    nav a img{
+        align-self: flex-end;
+        width: 6.7vw;
+    }
+    nav a:nth-child(3), nav a:nth-child(4){
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 65.5px;
+        width: 16vw;
+        font-size: 1.1em;
+        border-top: solid 1.8px #fff;
+    }
+    nav a:nth-child(3):hover, nav a:nth-child(4):hover{
+        border-top: solid 1.8px #0065FC;
+    }
+    nav a:nth-child(5){
+        width: 5.8vw;
+        margin-top: 51.1px;
+        font-size: 1.1em;
+    }#recherche{
+        margin: 0 0 0 3.9vw;
+    }
+    h2{
+        font-size: 1.2em;
+        letter-spacing: .5px;
+    }
+    #recherche p{
+    margin-top: 8.7px;
+    font-size: 1em;
+    letter-spacing: .1px;
+    }
+    #btn-search{display: none;}
+    #recherche{margin-top: 5.2px;}
+    #localisation{
+        height: 40.9px;
+        width: 3.6vw;
+        border-radius: .9vw 0 0 .9vw;
+        line-height: 40.9px;
+    }
+    input{
+        height: 36.9px;
+        width: 20.2vw;
+        padding-left: 1.2vw;
+        font-size: 1em;
+    }
+    #btn-recherche{
+        margin-left: -2.5vw;
+        font-weight: 600;
+        padding: 0 1.2vw 0 1.2vw;
+        color: #fff;
+        background-color: #0065FC;
+        border: 0;
+        border-radius: 0 .9vw .9vw 0;
+        z-index: 5;
+    }
+    #filtres {
+        display: flex;
+        width: 80.4vw;
+        margin-top: 30.2px;
+    }
+    #filtres .txt_filtres {
+        width: 4.9vw;
+        font-size: 1em;
+        text-align: center;
+        line-height: 50px;
+    }
+    .btn_filtres {
+        justify-content: space-evenly;
+    }
+    #filtres .economique, #filtres .familial, #filtres .romantique, #filtres .animaux {
+        height: 40px;
+        border-radius: 22px;
+    }
+    .economique i, .familial i, .romantique i, .animaux i {
+        height: 40px;
+        width: 40px;
+        margin: -2px 0 0 -2.7px;
+        line-height: 40px;
+    }
+    .economique .fitre-text, .familial .fitre-text, .romantique .fitre-text, .animaux .fitre-text {
+        line-height: 40px;
+        padding-left: 1vw;
+    }
+    .economique .fitre-text, .familial .fitre-text {padding-right: 1.5vw;}
+    .romantique .fitre-text{padding-right: 1vw;}
+    .animaux .fitre-text{padding-right: 1.4vw;}
+    #information{
+        margin-top: 25.1px;
+    }
+    #information i{
+        height: 22px;
+        width: 22px;
+        font-size: .9em;
+        line-height: 22px;
+    }
+    #information #text-info {
+        font-size: 1em;
+        line-height: 24px;
+        padding-left: .8vw;
+    }
+    #section_hebergements {
+        margin-top:26.7px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding: 0 3.6vw 0 3.6vw;
+    }
+    #section_hebergements aside, #section_hebergements article{
+        border-radius: 16.3px;
+        background-color: #F2F2F2;
+    }
+   #section_hebergements article{
+        margin-top: 36px;
+    }
+    article h2, aside h2{margin: 41.8px 2.8vw 0 2.8vw;}
+    #populaires{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 23px;
+        margin-bottom: 36.4px;
+    }
+    .carte-p{
+        margin: 0 2.2vw 0 2.2vw;
+        padding: .5vw .5vw .5vw .5vw;
+        border-radius: 1.2vw 1.2vw 1.2vw 1.2vw;
+    }
+    .recardep{
+        width: 10vw;
+        border-radius: 13.2px 0 0 13.2px;
+    }
+    .carte-p figcaption{
+        margin: 10.2px 0 0 1vw;
+        line-height: 19.5px;
+        width: 14.5vw;
+    }
+    .carte-p figcaption p .fas{padding-top: 26.5px;}
+    #img_p1{
+        width: 165%;
+        height: 110%;
+        margin: -5px 0 0 -2.8vw;
+    }
+    #img_p2{
+        width: 145%;
+        height: 107%;
+        margin: -5px 0 0 -2vw;
+        filter: brightness(105%);
+    }
+    #img_p3{
+        width: 95%;
+        height: 155%;
+        margin: -35px 0 0 0;
+        filter: brightness(105%);
+    }
+
+    #grid_cartes {     
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 23px;
+        padding: 0 0 20px 0;
+        height: 440px;
+    }
+    .carte-h{
+        width: 25.5vw;
+        margin: 0 2.2vw 0 2.2vw;
+        padding: .5vw .5vw 0 .5vw;
+        border-radius: 1.2vw 1.2vw 1.2vw 1.2vw;
+        background-color: #fff;
+    }
+    .carte-h .recadreh {
+        height: 113.8px;
+        border-radius: 12px 12px 0 0;
+    }
+    #img_h1 {
+        height: 145%;
+        width: 105%;
+        margin: -26px 0 0 -.5vw;
+    }
+    #img_h2 {
+        height: 145%;
+        width: 102%;
+        margin: -25px 0 0 0;
+        filter: brightness(105%) opacity(80%);
+    }
+    #img_h3 {
+        height: 150%;
+        width: 102%;
+        margin: -30px 0 0 0;
+        filter: brightness(115%) opacity(80%);
+    }
+    #img_h4 {
+        height: 200%;
+        width: 100%;
+        margin: -60px 0 0 -.3vw;
+    }
+    #img_h5 {
+        height: 130%;
+        width: 102%;
+        margin: -25px 0 0 0;
+    }
+    #img_h6 {
+        height: 322%;
+        width: 100%;
+        margin: -127px 0 0 .3vw;
+    }
+    .carte-h figcaption{
+        margin: 7.5px 0 0 .8vw;
+    }
+    h3{font-size: .92em;
+    margin: 0;
+    padding: 0;}
+    .carte-h figcaption p{
+        font-size: .9em;
+        margin-top: 4.7px;
+        line-height: 17px;
+    }
+    .afficher{
+        margin: -15px 0 20.1px 3vw;
+        font-size: 16.3px;
+    }
+    #section_activites{
+        margin-top: 18.6px;
+        padding: 0 2.6vw 0 3.6vw;
+    }
+    #section_activites h2{padding-bottom: 22.2px;}
+    .activites h3{
+        padding: 21.3px 0 16.7px 1.4vw;
+    }
+    .activites{
+        align-items: flex-start;
+    }
+    .activites .vertical{
+        width: 21vw;
+        border-radius: 17px 17px 17px 17px;
+        box-shadow: #e7e7e7 0 6px 12px;
+    }
+    .activites .double {
+        width: 25vw;
+    }
+    .recadre1, .recadre4{
+        height: 269px;
+    }
+    .img-act1{
+        width: 220%;
+        height: 115%;
+        margin: 0 0 0 -60%;
+    }
+   .img-act4{
+        height: 115%;
+        width: 220%;
+        margin: -5px 0 0 -62%;
+    }
+    .double{
+        display: flex;
+        flex-direction: column;
+        /*axe principal */
+        justify-content: space-between;
+        /*axe secondaire */
+        align-items: center;
+        height: 320px;
+        padding-bottom: 12px;
+    }
+    .double figure {
+        width: 21vw;
+        border-radius: 17px 17px 17px 17px;
+        box-shadow: #e7e7e7 0 6px 20px;
+    }
+    .recadre2, .recadre3, .recadre5, .recadre6 {
+        border-radius: 17px 17px 0 0;
+        overflow: hidden;
+    }
+    .recadre2{
+        height: 118px;
+    }
+    .img-act2{
+        width: 100%;
+        height: 324%;
+        margin: -65% 0 0 0;
+    }
+    .recadre3{
+        height: 70.6px;
+    }
+    .img-act3{
+        width: 100%;
+        margin: -1.5% 0 0 0;
+    }
+    .recadre5{height: 88.8px;}   
+    .img-act5{
+        width: 100%;
+        height: 126%;
+        margin: 5.2% 0 0 0;
+    }
+    .recadre6{height: 100.1px;}
+    .img-act6{
+        height: 140%;
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    footer{
+        margin-top: 40.1px;
+        padding: 8.9px 0 0 3.5vw;
+        height: 217.8px;
+    }
+    .footer{
+        display: flex;
+        width: 91.9vw;
+        justify-content: space-between;
+    }
+    .apropos, .nheberg, .assistance{
+        width: 30vw;
+    }
+    .apropos p, .nheberg p, .assistance p{
+        margin: 0;
+        padding: 0;
+        margin-top: 9.4px;
+        line-height: 33.2px;
+        }
+    }
