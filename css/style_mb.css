@@ -201,7 +201,7 @@
     }
     .carte-h figcaption{
         margin: 11.5px 0 0 3vw;}
-    h3{font-size: 1em;
+    h4{font-size: 1em;
     padding: 0;
     margin: 0;}
     .carte-h figcaption p{
@@ -262,7 +262,7 @@
         flex-wrap: wrap;
         height: 1255px;
     }
-    .activites h3{
+    .activites h4{
         padding: 21.3px 0 20.9px 5vw;
     }
     .activites .vertical:nth-child(3){   
