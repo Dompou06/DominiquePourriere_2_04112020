@@ -123,9 +123,17 @@
         padding-right: 4vw;
     }
     #information{
+        margin-top: 35.1px;
         width: 86vw;
     }
+    #information i{
+        height: 24px;
+        width: 24px;
+        font-size: 1em;
+        line-height: 24px;
+    }
     #information #text-info {
+        font-size: 1.2em;
         line-height: 24px;
         padding-left: 3.1vw;
     }
