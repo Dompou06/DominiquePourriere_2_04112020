@@ -181,7 +181,7 @@
     .carte-h figcaption{
         margin: 7.5px 0 0 .8vw;
     }
-    h3{font-size: .92em;
+    h4{font-size: .92em;
         letter-spacing: 0.05em;
     margin: 0;
     padding: 0;}
@@ -238,7 +238,7 @@
         padding: 0 2.6vw 0 3.6vw;
     }
     #section_activites h2{padding-bottom: 22.2px;}
-    .activites h3{
+    .activites h4{
         padding: 21.3px 0 16.7px 1.4vw;
     }
     .activites{
