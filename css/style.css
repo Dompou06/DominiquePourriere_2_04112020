@@ -155,7 +155,7 @@ aside h2 i{float: right;}
     filter: contrast(130%) brightness(110%) opacity(70%);
 } 
 .recadre4{position: relative;}
-.recadre4:before {
+.recadre4::before {
     content: " ";
     position: absolute;
     top: 0;
